@@ -72,6 +72,7 @@ else {
             output.value = res1.toFixed(2);
         }
 ```
+//Check the JS file to Check the entire code 
 
 
 
