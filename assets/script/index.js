@@ -41,7 +41,7 @@ onEvent('click', result, function () {
         }
     }
     else {
-        output.value = 'Chawal na mar';
+        output.value = '';
 
     }
 
