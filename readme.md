@@ -8,7 +8,7 @@ A simple point-and-click game made with JavaScript.
 
 ### You can reach at the converter page by clicking on link given below.
 
-Want to Convert your Temperature? click [here](https://chamanbawa.github.io/converter/) to Convert.
+Want to Convert Temperature? click [here](https://chamanbawa.github.io/converter/) to Convert.
 
 Here You will get explaination of JavaScript Code, How does it worked in this Converter.
 Given below is it's basic validation which will check the input provided by the user is really a number or not (input may be empty spaces or alphabets, which cannot be converted.)
@@ -17,7 +17,6 @@ Given below is it's basic validation which will check the input provided by the 
 
 function isNumber(str) {
     let input = str.trim();
-    
     if (  input.length > 0 && !isNaN(input))
     return true;
     
@@ -35,7 +34,6 @@ Next we are checking the input if the ``` length > 0 && !isNaN(input) ``` then r
 After validating the input, This is the main Code that converts Temprature. 
 ```JavaScript
     onEvent('click', result, function () {
-    
     let a = temp.value;
     if (isNumber(a)) {
         if (butn2.checked) {
@@ -48,9 +46,7 @@ After validating the input, This is the main Code that converts Temprature.
     }
     else {
         output.value = '';
-
     }
-
 });
 
 ```
